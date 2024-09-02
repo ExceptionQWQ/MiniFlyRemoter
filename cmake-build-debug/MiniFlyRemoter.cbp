@@ -119,10 +119,19 @@
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/dma.h">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/drv_oled.h">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/gpio.h">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/main.h">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/oled_font.h">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/spi.h">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Inc/stm32f1xx_hal_conf.h">
@@ -137,6 +146,9 @@
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Src/dma.c">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Src/drv_oled.c">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Src/freertos.c">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
@@ -144,6 +156,9 @@
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Src/main.c">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Src/spi.c">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Core/Src/stm32f1xx_hal_msp.c">
@@ -299,6 +314,9 @@
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
@@ -384,6 +402,9 @@
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="MiniFlyRemoter.elf"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
 			<Option target="MiniFlyRemoter.elf"/>
 		</Unit>
 		<Unit filename="/Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">

@@ -65,6 +65,10 @@ void Error_Handler(void);
 #define KEY_STICK1_GPIO_Port GPIOB
 #define KEY_L_Pin GPIO_PIN_11
 #define KEY_L_GPIO_Port GPIOB
+#define OLED_DC_Pin GPIO_PIN_12
+#define OLED_DC_GPIO_Port GPIOB
+#define OLED_RST_Pin GPIO_PIN_14
+#define OLED_RST_GPIO_Port GPIOB
 #define KEY_STICK2_Pin GPIO_PIN_8
 #define KEY_STICK2_GPIO_Port GPIOA
 #define LED_GREEN_Pin GPIO_PIN_3

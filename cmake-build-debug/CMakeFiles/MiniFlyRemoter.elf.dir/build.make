@@ -102,9 +102,22 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/dma.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mac/Desktop/MiniFlyRemoter/Core/Src/dma.c -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/dma.c.s
 
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.obj: ../Core/Src/drv_oled.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/drv_oled.c
+
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mac/Desktop/MiniFlyRemoter/Core/Src/drv_oled.c > CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.i
+
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mac/Desktop/MiniFlyRemoter/Core/Src/drv_oled.c -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.s
+
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/freertos.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/gpio.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/main.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.i: cmake_force
@@ -141,9 +154,22 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mac/Desktop/MiniFlyRemoter/Core/Src/main.c -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.s
 
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/spi.c
+
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mac/Desktop/MiniFlyRemoter/Core/Src/spi.c > CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.i
+
+CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mac/Desktop/MiniFlyRemoter/Core/Src/spi.c -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.s
+
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/stm32f1xx_hal_msp.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -156,7 +182,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f1xx_hal_timebase_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/stm32f1xx_hal_timebase_tim.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i: cmake_force
@@ -169,7 +195,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s: cmake
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/stm32f1xx_it.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -182,7 +208,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/syscalls.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -195,7 +221,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/sysmem.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -208,7 +234,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Src/system_stm32f1xx.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -221,12 +247,12 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: ../Core/Startup/startup_stm32f103c8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building ASM object CMakeFiles/MiniFlyRemoter.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj -c /Users/mac/Desktop/MiniFlyRemoter/Core/Startup/startup_stm32f103c8tx.s
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -239,7 +265,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i: cmake_force
@@ -252,7 +278,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i: cmake_force
@@ -265,7 +291,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -278,7 +304,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -291,7 +317,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -304,7 +330,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -317,7 +343,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -330,7 +356,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -343,7 +369,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -356,7 +382,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i: cmake_force
@@ -369,7 +395,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i: cmake_force
@@ -382,7 +408,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -395,7 +421,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -408,7 +434,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -419,9 +445,22 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 
+CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
+CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+
+CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c > CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+
+CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -434,7 +473,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -447,7 +486,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i: cmake_force
@@ -460,7 +499,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
@@ -473,7 +512,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
@@ -486,7 +525,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/S
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
@@ -499,7 +538,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/S
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
@@ -512,7 +551,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/S
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -525,7 +564,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -538,7 +577,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/crouti
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -551,7 +590,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -564,7 +603,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
@@ -577,7 +616,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portab
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -590,7 +629,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portab
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -603,7 +642,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -616,7 +655,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -629,7 +668,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -642,7 +681,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../USB_DEVICE/App/usb_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/USB_DEVICE/App/usb_device.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
@@ -655,7 +694,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE/App/usbd_cdc_if.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/USB_DEVICE/App/usbd_cdc_if.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
@@ -668,7 +707,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: ../USB_DEVICE/App/usbd_desc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/USB_DEVICE/App/usbd_desc.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
@@ -681,7 +720,7 @@ CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/MiniFlyRemoter.elf.dir/flags.make
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -c /Users/mac/Desktop/MiniFlyRemoter/USB_DEVICE/Target/usbd_conf.c
 
 CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
@@ -696,9 +735,11 @@ CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
 MiniFlyRemoter_elf_OBJECTS = \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/adc.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/dma.c.obj" \
+"CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
@@ -721,6 +762,7 @@ MiniFlyRemoter_elf_OBJECTS = \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
 "CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj" \
@@ -748,9 +790,11 @@ MiniFlyRemoter_elf_EXTERNAL_OBJECTS =
 
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/adc.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/dma.c.obj
+MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/drv_oled.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/freertos.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/gpio.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/main.c.obj
+MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/spi.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Core/Src/stm32f1xx_it.c.obj
@@ -773,6 +817,7 @@ MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driv
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
@@ -796,7 +841,7 @@ MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/App/usbd_desc.c
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/build.make
 MiniFlyRemoter.elf: CMakeFiles/MiniFlyRemoter.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking C executable MiniFlyRemoter.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable MiniFlyRemoter.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MiniFlyRemoter.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/MiniFlyRemoter.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/mac/Desktop/MiniFlyRemoter/cmake-build-debug/MiniFlyRemoter.bin"

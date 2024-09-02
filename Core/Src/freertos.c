@@ -30,6 +30,9 @@
 #include "stdio.h"
 #include "string.h"
 #include "usbd_cdc_if.h"
+#include "spi.h"
+
+#include "drv_oled.h"
 
 /* USER CODE END Includes */
 
@@ -61,6 +64,11 @@ osThreadId KeyScanHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
+
+void oled_spi_tx_callback(uint8_t *data, uint32_t len);
+void oled_gpio_rst_callback(uint8_t level);
+void oled_gpio_dc_callback(uint8_t level);
+void oled_delay_callback(uint32_t ms);
 
 /* USER CODE END FunctionPrototypes */
 
@@ -141,6 +149,23 @@ void StartDefaultTask(void const * argument)
   /* USER CODE BEGIN StartDefaultTask */
 
 
+    drv_oled_init(oled_spi_tx_callback, oled_gpio_rst_callback, oled_gpio_dc_callback, oled_delay_callback);
+
+
+//    oled_fill(10, 10, 20, 20, 1);
+//
+//    oled_draw_char(30, 30, 'B', OLED_FONT_SIZE_1224);
+
+//    oled_draw_number(10, 20, 123, 5, OLED_FONT_SIZE_0612);
+
+
+    oled_draw_string(10, 20, "Hello World", OLED_FONT_SIZE_0612);
+
+    oled_draw_string(10, 40, "Xiong Tao", OLED_FONT_SIZE_0612);
+
+    oled_refresh_gram();
+
+
   int cnt = 0;
 
   /* Infinite loop */
@@ -148,7 +173,7 @@ void StartDefaultTask(void const * argument)
   {
       char buff[64];
       snprintf(buff, 64, "adc_value:%d %d %d %d %d\r\n", adc_value[0], adc_value[1], adc_value[2], adc_value[3], adc_value[4]);
-      while (USBD_BUSY == CDC_Transmit_FS(buff, strlen(buff))) {}
+//      while (USBD_BUSY == CDC_Transmit_FS(buff, strlen(buff))) {}
 
       HAL_ADC_Start_DMA(&hadc1, adc_value, 5);
 
@@ -198,6 +223,28 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
         HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
     }
 }
+
+
+void oled_spi_tx_callback(uint8_t *data, uint32_t len)
+{
+    HAL_SPI_Transmit(&hspi2, data, len, 100);
+}
+
+void oled_gpio_rst_callback(uint8_t level)
+{
+    HAL_GPIO_WritePin(OLED_RST_GPIO_Port, OLED_RST_Pin, level);
+}
+
+void oled_gpio_dc_callback(uint8_t level)
+{
+    HAL_GPIO_WritePin(OLED_DC_GPIO_Port, OLED_DC_Pin, level);
+}
+
+void oled_delay_callback(uint32_t ms)
+{
+    osDelay(pdMS_TO_TICKS(ms));
+}
+
 
 
 

@@ -14,9 +14,17 @@ stdint.h
 main.h
 ../Core/Inc/main.h
 
+../Core/Inc/drv_oled.h
+stdint.h
+../Core/Inc/stdint.h
+
 ../Core/Inc/main.h
 stm32f1xx_hal.h
 ../Core/Inc/stm32f1xx_hal.h
+
+../Core/Inc/spi.h
+main.h
+../Core/Inc/main.h
 
 ../Core/Inc/stm32f1xx_hal_conf.h
 stm32f1xx_hal_rcc.h
@@ -255,6 +263,10 @@ stm32f1xx_hal_rcc_ex.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+stm32f1xx_hal_def.h
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
@@ -521,4 +533,8 @@ string.h
 /Users/mac/Desktop/MiniFlyRemoter/Core/Src/string.h
 usbd_cdc_if.h
 /Users/mac/Desktop/MiniFlyRemoter/Core/Src/usbd_cdc_if.h
+spi.h
+/Users/mac/Desktop/MiniFlyRemoter/Core/Src/spi.h
+drv_oled.h
+/Users/mac/Desktop/MiniFlyRemoter/Core/Src/drv_oled.h
 
